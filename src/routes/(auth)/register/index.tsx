@@ -41,6 +41,11 @@ function RegisterPage() {
   return (
     <div className="max-w-md mx-auto">
       <h1 className="text-3xl font-bold mb-6">Register</h1>
+      {error && (
+        <div className="bg-red-100 text-red-700 px-4 py-2 rounded mb-4">
+          {error}
+        </div>
+      )}
       <form className="space-y-4" onSubmit={handleSubmit}>
         <input
           type="text"

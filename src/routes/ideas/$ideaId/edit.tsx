@@ -72,7 +72,7 @@ function IdeaEditPage() {
             htmlFor="title"
             className="block text-gray-700 font-medium mb-1"
           >
-            Tile
+            Title
           </label>
           <input
             id="title"
@@ -108,7 +108,7 @@ function IdeaEditPage() {
             htmlFor="description"
             className="block text-gray-700 font-medium mb-1"
           >
-            Tile
+            Description
           </label>
           <textarea
             id="description"
